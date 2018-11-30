@@ -1,9 +1,9 @@
 {
   "name": "one-plain",
   "displayName": "米白色主题",
-  "description": "米白色主题",
+  "description": "🔥 米白色主题",
   "icon": "logo.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "yutent",
   "author": "Yutent [@yutent]",
   "engines": {
@@ -25,5 +25,8 @@
       }
     ]
   },
+  "keywords": [
+    "theme, one, plain, one-plain"
+  ],
   "license": "MIT"
 }

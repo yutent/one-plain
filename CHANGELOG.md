@@ -1,7 +1,4 @@
-# Change Log
-All notable changes to the "one-plain" extension will be documented in this file.
+# 更新日志
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## [1.0.2] 2018-11-30
+- 正式上架插件商店。
