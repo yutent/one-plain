@@ -3,7 +3,7 @@
   "displayName": "米白色主题",
   "description": "米白色主题",
   "icon": "logo.png",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "publisher": "yutent",
   "author": "Yutent [@yutent]",
   "engines": {
@@ -12,6 +12,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutent/one-plain.git"
+  },
   "contributes": {
     "themes": [
       {
@@ -20,5 +24,6 @@
         "path": "./themes/color-theme.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
