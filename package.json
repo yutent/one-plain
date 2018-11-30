@@ -1,0 +1,24 @@
+{
+  "name": "one-plain",
+  "displayName": "米白色主题",
+  "description": "米白色主题",
+  "icon": "logo.png",
+  "version": "0.0.1",
+  "publisher": "yutent",
+  "author": "Yutent [@yutent]",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "米白色主题",
+        "uiTheme": "vs",
+        "path": "./themes/color-theme.json"
+      }
+    ]
+  }
+}
