@@ -71,7 +71,7 @@ module.exports = [
       'markup.inline.raw.string.markdown'
     ],
     settings: {
-      foreground: '#90A4AE90'
+      foreground: '#90A4AE'
     }
   },
   {
