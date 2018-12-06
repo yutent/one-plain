@@ -2,21 +2,11 @@ const vars = require('./var')
 
 module.exports = [
   {
-    name: 'ES7 Bind Operator',
-    scope: ['source.js constant.other.object.key.js string.unquoted.label.js'],
-    settings: {
-      fontStyle: 'italic',
-      foreground: '#E53935'
-    }
-  },
-
-  {
     name: 'Class extends, console',
     scope: [
       'support.type.object.console.js',
       'support.type.object.module.js',
       'support.constant.math',
-      // 'support.type.object.module',
       'meta.class.extends.js > variable.other.readwrite.js'
     ],
     settings: {
@@ -74,6 +64,18 @@ module.exports = [
     settings: {
       foreground: '#e5c07b',
       fontStyle: 'bold'
+    }
+  },
+
+  {
+    name: 'object keys',
+    scope: [
+      'constant.other.object.key.js string.unquoted.label.js',
+      'constant.other.object.key.js string.quoted.label.js'
+    ],
+    settings: {
+      fontStyle: 'italic bold',
+      foreground: vars.common
     }
   }
 ]

@@ -473,14 +473,6 @@
       }
     },
     {
-      "name": "ES7 Bind Operator",
-      "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#E53935"
-      }
-    },
-    {
       "name": "Class extends, console",
       "scope": "support.type.object.console.js, support.type.object.module.js, support.constant.math, meta.class.extends.js > variable.other.readwrite.js",
       "settings": {
@@ -517,6 +509,14 @@
       "settings": {
         "foreground": "#e5c07b",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "object keys",
+      "scope": "constant.other.object.key.js string.unquoted.label.js, constant.other.object.key.js string.quoted.label.js",
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#90a4ae"
       }
     },
     {
@@ -736,7 +736,7 @@
       "name": "order list & unorder list",
       "scope": "markup.list",
       "settings": {
-        "foreground": "#35373b",
+        "foreground": "#75797b",
         "fontStyle": "bold"
       }
     },

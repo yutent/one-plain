@@ -133,7 +133,7 @@ module.exports = [
     name: 'order list & unorder list',
     scope: ['markup.list'],
     settings: {
-      foreground: vars.dark2,
+      foreground: vars.dark1,
       fontStyle: 'bold'
     }
   },
