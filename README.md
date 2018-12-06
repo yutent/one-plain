@@ -5,8 +5,10 @@
 
 
 ## 安装(Installation)
-> 直接从插件管理器搜索"米白"下载即可。
+> 直接从插件管理器搜索`米白`下载即可。
+> 想看我的所有的插件,可以搜索 `yutent`
 
 
 ## 问题(Issue)
 > 有任何问题,或建议, 都可以到[GitHub](https://github.com/yutent/one-plain.git) 提出。
+

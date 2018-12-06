@@ -15,9 +15,9 @@ const base = require('./src/base')
 const es = require('./src/es')
 const php = require('./src/php')
 const html = require('./src/html')
-const markdown = require('./src/markdown')
+const plaintext = require('./src/plaintext')
 const json = require('./src/json')
-const tokenColors = [].concat(base, html, es, php, markdown, json)
+const tokenColors = [].concat(base, html, es, php, plaintext, json)
 
 for (let it of tokenColors) {
   if (Array.isArray(it.scope)) {

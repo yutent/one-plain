@@ -1,3 +1,5 @@
+const vars = require('./var')
+
 module.exports = [
   {
     name: 'ES7 Bind Operator',
@@ -7,6 +9,31 @@ module.exports = [
       foreground: '#E53935'
     }
   },
+
+  {
+    name: 'Class extends, console',
+    scope: [
+      'support.type.object.console.js',
+      'support.type.object.module.js',
+      'support.constant.math',
+      // 'support.type.object.module',
+      'meta.class.extends.js > variable.other.readwrite.js'
+    ],
+    settings: {
+      fontStyle: 'bold italic',
+      foreground: '#ffb62c'
+    }
+  },
+
+  {
+    name: 'new Class',
+    scope: ['new.expr entity.name.type'],
+    settings: {
+      fontStyle: 'bold',
+      foreground: '#ffb62c'
+    }
+  },
+
   {
     name: 'js/ts italic',
     scope: [
@@ -21,19 +48,15 @@ module.exports = [
   },
 
   {
-    name: 'math js/ts',
-    scope: 'support.constant.math',
+    name: 'Build-in props',
+    scope: [
+      'meta.group.braces.round variable.other.constant',
+      'support.type.object.module keyword.operator.accessor',
+      'support.constant.property.math.ts'
+    ],
     settings: {
-      foreground: '#ffb62c',
-      fontStyle: 'bold italic'
-    }
-  },
-
-  {
-    name: 'math property js/ts',
-    scope: 'support.constant.property.math',
-    settings: {
-      foreground: '#7c4dff'
+      fontStyle: 'italic bold',
+      foreground: vars.blue2
     }
   },
 
@@ -49,7 +72,7 @@ module.exports = [
       'entity.name.type'
     ],
     settings: {
-      foreground: '#E5C07B',
+      foreground: '#e5c07b',
       fontStyle: 'bold'
     }
   }

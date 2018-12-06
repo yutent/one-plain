@@ -114,28 +114,28 @@ module.exports = [
       'meta.block-level'
     ],
     settings: {
-      foreground: '#0099ff'
+      foreground: vars.blue2
     }
   },
   {
     name: 'C-related Block Level Variables',
     scope: ['source.cpp meta.block variable.other'],
     settings: {
-      foreground: '#FF5370'
+      foreground: '#ff5370'
     }
   },
   {
     name: 'Variables constant',
     scope: ['variable.other.constant'],
     settings: {
-      foreground: '#FF5370'
+      foreground: vars.red1
     }
   },
   {
     name: 'Other Variable, String Link',
     scope: ['support.other.variable', 'string.other.link'],
     settings: {
-      foreground: '#FF5370'
+      foreground: '#ff5370'
     }
   },
   {
@@ -191,30 +191,29 @@ module.exports = [
     }
   },
   {
-    name: 'Symbols, Inherited Class, Markup Heading',
+    name: 'Symbols',
     scope: [
       'constant.other.symbol',
       'constant.other.key',
-      'entity.other.inherited-class',
-      'markup.heading',
-      'markup.inserted.git_gutter',
-      'meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js'
+      'meta.group.braces.curly',
+      'constant.other.object.key.js',
+      'string.unquoted.label.js'
     ],
     settings: {
       foreground: vars.common2
     }
   },
   {
-    name: 'Class, Support',
+    name: 'Class, Support, inherited-class',
     scope: [
       'entity.name.class',
       'entity.name.type.class',
+      'entity.other.inherited-class',
       'support.type',
       'support.class',
       'support.orther.namespace.use.php',
       'meta.use.php',
       'support.other.namespace.php',
-      'markup.changed.git_gutter',
       'support.type.sys-types'
     ],
     settings: {
@@ -245,13 +244,9 @@ module.exports = [
   },
   {
     name: 'Sub-methods',
-    scope: [
-      'entity.name.module.js',
-      'variable.import.parameter.js',
-      'variable.other.class.js'
-    ],
+    scope: ['entity.name.module.js', 'variable.import.parameter.js'],
     settings: {
-      foreground: '#E53935'
+      foreground: '#e53935'
     }
   },
   {
@@ -259,7 +254,7 @@ module.exports = [
     scope: ['variable.language'],
     settings: {
       fontStyle: 'italic',
-      foreground: '#E53935'
+      foreground: '#e53935'
     }
   },
   {
