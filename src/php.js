@@ -22,15 +22,33 @@ module.exports = [
     }
   },
 
-  // 变量 以及 $this
+  // 变量
+  {
+    name: 'php dollar sign',
+    scope: ['punctuation.definition.variable.php'],
+    settings: {
+      foreground: vars.common2
+    }
+  },
+
+  //  $this
   {
     name: 'php dollar sign',
     scope: [
-      'punctuation.definition.variable.php',
-      'variable.language.this.php'
+      'variable.language.this.php',
+      'variable.language.this.php punctuation.definition.variable.php'
     ],
     settings: {
-      foreground: vars.common2
+      foreground: vars.red1
+    }
+  },
+
+  {
+    name: 'php build in function',
+    scope: ['meta.function-call.php support.function'],
+    settings: {
+      fontStyle: 'italic',
+      foreground: vars.magenta1
     }
   },
 

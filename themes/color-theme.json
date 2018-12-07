@@ -473,8 +473,8 @@
       }
     },
     {
-      "name": "Class extends, console",
-      "scope": "support.type.object.console.js, support.type.object.module.js, support.constant.math, meta.class.extends.js > variable.other.readwrite.js",
+      "name": "Class extends, build-in, dom",
+      "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js > variable.other.readwrite.js",
       "settings": {
         "fontStyle": "bold italic",
         "foreground": "#ffb62c"
@@ -486,6 +486,14 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#ffb62c"
+      }
+    },
+    {
+      "name": "build-in function",
+      "scope": "source.js support.function.node.js, meta.group.braces.curly.js support.function, meta.function-call.ts support.function.ts, support.function.builtin.js",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#be7ee7"
       }
     },
     {
@@ -535,9 +543,24 @@
     },
     {
       "name": "php dollar sign",
-      "scope": "punctuation.definition.variable.php, variable.language.this.php",
+      "scope": "punctuation.definition.variable.php",
       "settings": {
         "foreground": "#546e7a"
+      }
+    },
+    {
+      "name": "php dollar sign",
+      "scope": "variable.language.this.php, variable.language.this.php punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#ff4628"
+      }
+    },
+    {
+      "name": "php build in function",
+      "scope": "meta.function-call.php support.function",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#be7ee7"
       }
     },
     {

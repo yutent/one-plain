@@ -2,10 +2,11 @@ const vars = require('./var')
 
 module.exports = [
   {
-    name: 'Class extends, console',
+    name: 'Class extends, build-in, dom',
     scope: [
       'support.type.object.console.js',
       'support.type.object.module.js',
+      'support.type.object.dom.js',
       'support.constant.math',
       'meta.class.extends.js > variable.other.readwrite.js'
     ],
@@ -21,6 +22,20 @@ module.exports = [
     settings: {
       fontStyle: 'bold',
       foreground: '#ffb62c'
+    }
+  },
+
+  {
+    name: 'build-in function',
+    scope: [
+      'source.js support.function.node.js',
+      'meta.group.braces.curly.js support.function',
+      'meta.function-call.ts support.function.ts',
+      'support.function.builtin.js'
+    ],
+    settings: {
+      fontStyle: 'italic',
+      foreground: vars.magenta1
     }
   },
 
