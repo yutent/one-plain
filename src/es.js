@@ -8,7 +8,10 @@ module.exports = [
       'support.type.object.module.js',
       'support.type.object.dom.js',
       'support.constant.math',
-      'meta.class.extends.js > variable.other.readwrite.js'
+      'meta.class.extends.js variable.other.readwrite.js',
+      'meta.function-call.static.without-arguments.js variable.other.class.js',
+      'meta.property.class.js variable.other.class.js',
+      'variable.other.object.ts'
     ],
     settings: {
       fontStyle: 'bold italic',
@@ -61,7 +64,7 @@ module.exports = [
     ],
     settings: {
       fontStyle: 'italic bold',
-      foreground: vars.blue2
+      foreground: vars.common
     }
   },
 
@@ -78,7 +81,7 @@ module.exports = [
     ],
     settings: {
       foreground: '#e5c07b',
-      fontStyle: 'bold'
+      fontStyle: 'bold italic'
     }
   },
 

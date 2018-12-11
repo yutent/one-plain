@@ -17,7 +17,8 @@ const php = require('./src/php')
 const html = require('./src/html')
 const plaintext = require('./src/plaintext')
 const json = require('./src/json')
-const tokenColors = [].concat(base, html, es, php, plaintext, json)
+const dart = require('./src/dart')
+const tokenColors = [].concat(base, html, es, php, plaintext, dart, json)
 
 for (let it of tokenColors) {
   if (Array.isArray(it.scope)) {

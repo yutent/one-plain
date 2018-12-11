@@ -12,6 +12,7 @@ module.exports = [
     name: 'inline code',
     scope: ['markup.inline'],
     settings: {
+      fontStyle: '',
       foreground: '#ff5370'
     }
   },

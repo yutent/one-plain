@@ -474,7 +474,7 @@
     },
     {
       "name": "Class extends, build-in, dom",
-      "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js > variable.other.readwrite.js",
+      "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js variable.other.readwrite.js, meta.function-call.static.without-arguments.js variable.other.class.js, meta.property.class.js variable.other.class.js, variable.other.object.ts",
       "settings": {
         "fontStyle": "bold italic",
         "foreground": "#ffb62c"
@@ -508,7 +508,7 @@
       "scope": "meta.group.braces.round variable.other.constant, support.type.object.module keyword.operator.accessor, support.constant.property.math.ts",
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#0096ff"
+        "foreground": "#90a4ae"
       }
     },
     {
@@ -516,7 +516,7 @@
       "scope": "support.type.primitive.ts, support.type.builtin.ts, support.type.primitive.tsx, support.type.builtin.tsx, entity.name.type.module, entity.name.type",
       "settings": {
         "foreground": "#e5c07b",
-        "fontStyle": "bold"
+        "fontStyle": "bold italic"
       }
     },
     {
@@ -659,6 +659,7 @@
       "name": "inline code",
       "scope": "markup.inline",
       "settings": {
+        "fontStyle": "",
         "foreground": "#ff5370"
       }
     },
