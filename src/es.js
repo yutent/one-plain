@@ -29,6 +29,40 @@ module.exports = [
   },
 
   {
+    name: 'js/ts doc',
+    scope: [
+      'comment.block.documentation entity.name.type.instance.jsdoc',
+      'comment.block.documentation constant.other.email.link.underline.jsdoc'
+    ],
+    settings: {
+      fontStyle: 'italic',
+      foreground: '#b6d5e0'
+    }
+  },
+
+  {
+    name: 'js/ts doc email',
+    scope: [
+      'comment.block.documentation constant.other.email.link.underline.jsdoc'
+    ],
+    settings: {
+      fontStyle: 'italic underline'
+    }
+  },
+
+  {
+    name: 'ts string express',
+    scope: [
+      'punctuation.definition.template-expression.begin.ts',
+      'punctuation.definition.template-expression.end.ts'
+    ],
+    settings: {
+      fontStyle: '',
+      foreground: '#ff5370'
+    }
+  },
+
+  {
     name: 'build-in function',
     scope: [
       'source.js support.function.node.js',

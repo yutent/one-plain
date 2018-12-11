@@ -180,7 +180,7 @@
       "scope": "comment, punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#B6D5E0"
+        "foreground": "#b6d5e0"
       }
     },
     {
@@ -241,13 +241,6 @@
       }
     },
     {
-      "name": "Operator, Misc",
-      "scope": "punctuation.definition.generic.begin.wxml, punctuation.definition.generic.end.wxml",
-      "settings": {
-        "foreground": "#f7820c"
-      }
-    },
-    {
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
@@ -265,6 +258,30 @@
       "name": "Function, Special Method, Block Level",
       "scope": "entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level",
       "settings": {
+        "foreground": "#0096ff"
+      }
+    },
+    {
+      "name": "regexp string",
+      "scope": "string.regexp",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#90a4ae"
+      }
+    },
+    {
+      "name": "regexp sign",
+      "scope": "string.regexp punctuation.definition.string.begin, string.regexp punctuation.definition.string.end",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#9437ff"
+      }
+    },
+    {
+      "name": "regexp buils-in",
+      "scope": "constant.other.character-class.regexp, constant.other.character-class.escape.backslash.regexp, constant.character.escape.backslash.regexp",
+      "settings": {
+        "fontStyle": "italic",
         "foreground": "#0096ff"
       }
     },
@@ -422,13 +439,6 @@
       }
     },
     {
-      "name": "Regular Expressions",
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#0099ff"
-      }
-    },
-    {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
@@ -486,6 +496,29 @@
       "settings": {
         "fontStyle": "bold",
         "foreground": "#ffb62c"
+      }
+    },
+    {
+      "name": "js/ts doc",
+      "scope": "comment.block.documentation entity.name.type.instance.jsdoc, comment.block.documentation constant.other.email.link.underline.jsdoc",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#b6d5e0"
+      }
+    },
+    {
+      "name": "js/ts doc email",
+      "scope": "comment.block.documentation constant.other.email.link.underline.jsdoc",
+      "settings": {
+        "fontStyle": "italic underline"
+      }
+    },
+    {
+      "name": "ts string express",
+      "scope": "punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff5370"
       }
     },
     {

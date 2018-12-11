@@ -6,7 +6,7 @@ module.exports = [
     scope: ['comment', 'punctuation.definition.comment'],
     settings: {
       fontStyle: 'italic',
-      foreground: '#B6D5E0'
+      foreground: '#b6d5e0'
     }
   },
   {
@@ -79,16 +79,7 @@ module.exports = [
       foreground: '#FF5370'
     }
   },
-  {
-    name: 'Operator, Misc',
-    scope: [
-      'punctuation.definition.generic.begin.wxml',
-      'punctuation.definition.generic.end.wxml'
-    ],
-    settings: {
-      foreground: '#f7820c'
-    }
-  },
+
   {
     name: 'Keyword Control',
     scope: ['keyword.control'],
@@ -117,6 +108,39 @@ module.exports = [
       foreground: vars.blue2
     }
   },
+
+  {
+    name: 'regexp string',
+    scope: ['string.regexp'],
+    settings: {
+      fontStyle: '',
+      foreground: vars.common
+    }
+  },
+  {
+    name: 'regexp sign',
+    scope: [
+      'string.regexp punctuation.definition.string.begin',
+      'string.regexp punctuation.definition.string.end'
+    ],
+    settings: {
+      fontStyle: '',
+      foreground: vars.magenta2
+    }
+  },
+  {
+    name: 'regexp buils-in',
+    scope: [
+      'constant.other.character-class.regexp',
+      'constant.other.character-class.escape.backslash.regexp',
+      'constant.character.escape.backslash.regexp'
+    ],
+    settings: {
+      fontStyle: 'italic',
+      foreground: vars.blue2
+    }
+  },
+
   {
     name: 'C-related Block Level Variables',
     scope: ['source.cpp meta.block variable.other'],
@@ -301,13 +325,6 @@ module.exports = [
     scope: ['markup.changed'],
     settings: {
       foreground: '#7C4DFF'
-    }
-  },
-  {
-    name: 'Regular Expressions',
-    scope: ['string.regexp'],
-    settings: {
-      foreground: '#0099ff'
     }
   },
   {

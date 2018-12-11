@@ -1,7 +1,7 @@
 # 米白色主题
 > 米白色主题, vscode专用。包括UI和代码高亮, 都精心调整好对比度。优雅,耐看。 喜欢浅色系的童鞋, 不要错过。
 
-![截图](https://attach.cdn.doui.cc/one-plain.png)
+![截图](https://attach.cdn.doui.cc/one-plain.png?t=20181211)
 
 
 ## 安装(Installation)
