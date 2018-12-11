@@ -484,7 +484,7 @@
     },
     {
       "name": "Class extends, build-in, dom",
-      "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js variable.other.readwrite.js, meta.function-call.static.without-arguments.js variable.other.class.js, meta.property.class.js variable.other.class.js, variable.other.object.ts",
+      "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js variable.other.readwrite.js, meta.function-call.static.without-arguments.js variable.other.class.js, meta.function-call.static.with-arguments.js variable.other.class.js, meta.property.class.js variable.other.class.js, variable.other.object.ts",
       "settings": {
         "fontStyle": "bold italic",
         "foreground": "#ffb62c"
