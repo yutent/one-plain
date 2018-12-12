@@ -11,8 +11,7 @@ module.exports = [
       'meta.class.extends.js variable.other.readwrite.js',
       'meta.function-call.static.without-arguments.js variable.other.class.js',
       'meta.function-call.static.with-arguments.js variable.other.class.js',
-      'meta.property.class.js variable.other.class.js',
-      'variable.other.object.ts'
+      'meta.property.class.js variable.other.class.js'
     ],
     settings: {
       fontStyle: 'bold italic',

@@ -152,7 +152,7 @@ module.exports = [
     name: 'Variables constant',
     scope: ['variable.other.constant'],
     settings: {
-      foreground: vars.red1
+      foreground: vars.blue2
     }
   },
   {
