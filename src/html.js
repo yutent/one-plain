@@ -1,3 +1,5 @@
+const vars = require('./var')
+
 module.exports = [
   {
     name: 'HTML Attributes',
@@ -24,6 +26,24 @@ module.exports = [
     scope: ['source.sass keyword.control'],
     settings: {
       foreground: '#6182B8'
+    }
+  },
+  {
+    name: 'directive',
+    scope: [
+      'text.html.derivative meta.attribute.unrecognized entity.other.attribute-name.html'
+    ],
+    settings: {
+      foreground: vars.yellow1
+    }
+  },
+  {
+    name: "directive's value",
+    scope: [
+      'text.html.derivative meta.attribute.unrecognized string.quoted.double.html'
+    ],
+    settings: {
+      foreground: vars.magenta1
     }
   }
 ]

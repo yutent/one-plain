@@ -483,6 +483,20 @@
       }
     },
     {
+      "name": "directive",
+      "scope": "text.html.derivative meta.attribute.unrecognized entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#f39c12"
+      }
+    },
+    {
+      "name": "directive's value",
+      "scope": "text.html.derivative meta.attribute.unrecognized string.quoted.double.html",
+      "settings": {
+        "foreground": "#be7ee7"
+      }
+    },
+    {
       "name": "Class extends, build-in, dom",
       "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js variable.other.readwrite.js, meta.function-call.static.without-arguments.js variable.other.class.js, meta.function-call.static.with-arguments.js variable.other.class.js, meta.property.class.js variable.other.class.js",
       "settings": {
