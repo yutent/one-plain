@@ -11,21 +11,48 @@ module.exports = [
     ],
     settings: {
       fontStyle: 'italic',
-      foreground: '#FFB62C'
+      foreground: vars.yellow1
     }
   },
   {
-    name: 'CSS Classes',
-    scope: ['entity.other.attribute-name.class'],
+    name: 'CSS Class & ID',
+    scope: [
+      'entity.other.attribute-name.class',
+      'entity.other.attribute-name.id.css'
+    ],
     settings: {
-      foreground: '#FFB62C'
+      foreground: vars.yellow1
     }
   },
   {
-    name: "CSS ID's",
-    scope: ['source.sass keyword.control'],
+    name: 'scss variable',
+    scope: [
+      'meta.property-value.scss variable.scss',
+      'meta.at-rule.mixin.scss variable.scss',
+      'meta.definition.variable.scss variable.scss'
+    ],
     settings: {
-      foreground: '#6182B8'
+      foreground: vars.red1 + 'cb'
+    }
+  },
+  {
+    name: 'scss color value',
+    scope: ['constant.other.color.rgb-value.hex.css'],
+    settings: {
+      fontStyle: 'underline',
+      foreground: vars.magenta1
+    }
+  },
+  {
+    name: 'CSS url',
+    scope: [
+      'meta.property-value.css variable.parameter.url.css',
+      'meta.property-value.scss variable.parameter.url.scss',
+      'meta.property-value.scss keyword.operator.css',
+      'meta.property-value.scss string.quoted.single.scss'
+    ],
+    settings: {
+      foreground: '#53c659'
     }
   },
   {

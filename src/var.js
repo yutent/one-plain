@@ -19,7 +19,7 @@ module.exports = {
   green2: '#27ae60',
   red1: '#ff4628',
   red2: '#ea4224',
-  yellow1: '#f39c12',
+  yellow1: '#ffb62c',
   yellow2: '#e67e22',
   magenta1: '#be7ee7',
   magenta2: '#9437ff'

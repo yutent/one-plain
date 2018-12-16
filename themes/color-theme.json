@@ -112,7 +112,7 @@
     "terminal.ansiBrightGreen": "#2ecc71",
     "terminal.ansiBrightMagenta": "#be7ee7",
     "terminal.ansiBrightRed": "#ff4628",
-    "terminal.ansiBrightYellow": "#f39c12",
+    "terminal.ansiBrightYellow": "#ffb62c",
     "scrollbarSlider.background": "#90a4ae20",
     "scrollbarSlider.hoverBackground": "#90a4ae10",
     "scrollbarSlider.activeBackground": "#80CBC4",
@@ -191,13 +191,6 @@
       }
     },
     {
-      "name": "Colors",
-      "scope": "constant.other.color",
-      "settings": {
-        "foreground": "#546e7a"
-      }
-    },
-    {
       "name": "Invalid",
       "scope": "invalid, invalid.illegal",
       "settings": {
@@ -235,9 +228,9 @@
     },
     {
       "name": "Operator, Misc",
-      "scope": "keyword.control, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+      "scope": "keyword.control, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#ff5370"
       }
     },
     {
@@ -465,28 +458,43 @@
       "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name, text.xhtml.basic entity.other.attribute-name.xhtml, text.xhtml.basic entity.other.attribute-name",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FFB62C"
+        "foreground": "#ffb62c"
       }
     },
     {
-      "name": "CSS Classes",
-      "scope": "entity.other.attribute-name.class",
+      "name": "CSS Class & ID",
+      "scope": "entity.other.attribute-name.class, entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#FFB62C"
+        "foreground": "#ffb62c"
       }
     },
     {
-      "name": "CSS ID's",
-      "scope": "source.sass keyword.control",
+      "name": "scss variable",
+      "scope": "meta.property-value.scss variable.scss, meta.at-rule.mixin.scss variable.scss, meta.definition.variable.scss variable.scss",
       "settings": {
-        "foreground": "#6182B8"
+        "foreground": "#ff4628cb"
+      }
+    },
+    {
+      "name": "scss color value",
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#be7ee7"
+      }
+    },
+    {
+      "name": "CSS url",
+      "scope": "meta.property-value.css variable.parameter.url.css, meta.property-value.scss variable.parameter.url.scss, meta.property-value.scss keyword.operator.css, meta.property-value.scss string.quoted.single.scss",
+      "settings": {
+        "foreground": "#53c659"
       }
     },
     {
       "name": "directive",
       "scope": "text.html.derivative meta.attribute.unrecognized entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#f39c12"
+        "foreground": "#ffb62c"
       }
     },
     {

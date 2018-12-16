@@ -17,13 +17,6 @@ module.exports = [
     }
   },
   {
-    name: 'Colors',
-    scope: ['constant.other.color'],
-    settings: {
-      foreground: vars.common2
-    }
-  },
-  {
     name: 'Invalid',
     scope: ['invalid', 'invalid.illegal'],
     settings: {
@@ -64,7 +57,6 @@ module.exports = [
     name: 'Operator, Misc',
     scope: [
       'keyword.control',
-      'constant.other.color',
       'meta.tag',
       'punctuation.definition.tag',
       'punctuation.separator.inheritance.php',
@@ -76,7 +68,7 @@ module.exports = [
       'keyword.other.substitution'
     ],
     settings: {
-      foreground: '#FF5370'
+      foreground: '#ff5370'
     }
   },
 
