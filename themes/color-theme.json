@@ -497,6 +497,13 @@
       }
     },
     {
+      "name": "hexadecimal & character",
+      "scope": "constant.character.entity.named, constant.character.entity.named punctuation.definition.entity.html, constant.character.entity.numeric.hexadecimal.html, constant.character.entity.numeric.hexadecimal.html punctuation.definition.entity.html",
+      "settings": {
+        "foreground": "#70acf7"
+      }
+    },
+    {
       "name": "Class extends, build-in, dom",
       "scope": "support.type.object.console.js, support.type.object.module.js, support.type.object.dom.js, support.constant.math, meta.class.extends.js variable.other.readwrite.js, meta.function-call.static.without-arguments.js variable.other.class.js, meta.function-call.static.with-arguments.js variable.other.class.js, meta.property.class.js variable.other.class.js",
       "settings": {

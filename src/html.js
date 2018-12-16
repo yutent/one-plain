@@ -45,5 +45,17 @@ module.exports = [
     settings: {
       foreground: vars.magenta1
     }
+  },
+  {
+    name: 'hexadecimal & character',
+    scope: [
+      'constant.character.entity.named',
+      'constant.character.entity.named punctuation.definition.entity.html',
+      'constant.character.entity.numeric.hexadecimal.html',
+      'constant.character.entity.numeric.hexadecimal.html punctuation.definition.entity.html'
+    ],
+    settings: {
+      foreground: vars.blue1
+    }
   }
 ]
