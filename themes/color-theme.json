@@ -70,7 +70,7 @@
     "activityBarBadge.background": "#EA4224",
     "activityBarBadge.foreground": "#ffffff",
     "titleBar.activeBackground": "#e7e8eb",
-    "titleBar.activeForeground": "#3fc2a7",
+    "titleBar.activeForeground": "#75797b",
     "titleBar.inactiveBackground": "#f7f8fb",
     "titleBar.inactiveForeground": "#627883",
     "titleBar.border": "#e7e8eb",

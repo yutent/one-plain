@@ -69,7 +69,7 @@ module.exports = {
   'activityBarBadge.background': '#EA4224',
   'activityBarBadge.foreground': vars.white,
   'titleBar.activeBackground': vars.plain3,
-  'titleBar.activeForeground': '#3fc2a7',
+  'titleBar.activeForeground': vars.dark1,
   'titleBar.inactiveBackground': vars.plain1,
   'titleBar.inactiveForeground': '#627883',
   'titleBar.border': vars.plain3,
