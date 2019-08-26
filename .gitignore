@@ -1,7 +1,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-.vscode
+
 
 # Thumbnails
 ._*
@@ -10,6 +10,6 @@
 .Spotlight-V100
 .Trashes
 
-node_modules
+node_modules/
 *.vsix
-vsc-extension-quickstart.md
+
