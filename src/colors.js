@@ -2,7 +2,7 @@ const vars = require('./var')
 
 module.exports = {
   focusBorder: vars.transparent,
-  'scrollbar.shadow': vars.transparent,
+
   'editorLink.activeForeground': vars.common,
   'selection.background': '#80CBC440',
   'progressBar.background': '#80CBC4',
@@ -113,9 +113,10 @@ module.exports = {
   'terminal.ansiBrightMagenta': vars.magenta1,
   'terminal.ansiBrightRed': vars.red1,
   'terminal.ansiBrightYellow': vars.yellow1,
-  'scrollbarSlider.background': vars.common + 20,
-  'scrollbarSlider.hoverBackground': vars.common + 10,
-  'scrollbarSlider.activeBackground': '#80CBC4',
+  'scrollbar.shadow': vars.transparent,
+  'scrollbarSlider.background': vars.common + 30,
+  'scrollbarSlider.hoverBackground': vars.cyan1 + 50,
+  'scrollbarSlider.activeBackground': vars.cyan1,
   'widget.shadow': vars.black + 20,
   'panel.border': vars.plain3,
   'panel.background': vars.plain1,
