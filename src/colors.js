@@ -123,6 +123,7 @@ module.exports = {
   'panelTitle.inactiveForeground': vars.common,
   'panelTitle.activeForeground': '#16967a',
   'panelTitle.activeBorder': '#3fc2a7',
+  'panelSectionHeader.background': vars.plain2,
   'diffEditor.insertedTextBackground': '#91B85915',
   'diffEditor.removedTextBackground': '#E5393520',
   'notifications.background': vars.white,
