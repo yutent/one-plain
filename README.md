@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.org/yutent/one-plain.svg?branch=master)](https://travis-ci.org/yutent/one-plain)
 
 ## 截图预览
-![截图](https://attach.cdn.doui.cc/one-plain.png?t=20181211)
+![截图](./demo.jpg)
 
 
 ## 安装(Installation)
